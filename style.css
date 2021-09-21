@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 50px;
+    width: 100vw;
+    background-color: #DCDCDC;
+}
+
+.cont {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.cerchio1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.cerchio2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(245, 241, 13);
+    margin: 10px;
+}
+
+.cerchio3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(15, 228, 51);
+}
+
+.zoom {
+    margin: auto;
+}
