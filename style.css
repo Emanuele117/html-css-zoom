@@ -31,11 +31,70 @@ footer {
     margin-left: 10px;
 }
 
+.freccia-sinistra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.name {
+    position: absolute;
+    top: 285px;
+    left: 125px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    filter: opacity(0.5);
+}
+
+.name1 {
+    position: absolute;
+    top: 285px;
+    left: 381px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    filter: opacity(0.5)
+}
+
+.name2 {
+    position: absolute;
+    top: 285px;
+    left: 636px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    filter: opacity(0.5)
+}
+
+.name3 {
+    position: absolute;
+    top: 285px;
+    left: 890px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    filter: opacity(0.5)
+}
+
+.name4 {
+    position: absolute;
+    top: 285px;
+    left: 1148px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    filter: opacity(0.5);
+}
+
 .cont2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 70px;
+    margin: 50px;
+    margin-top: 1rem;
 }
 
 .cont3 {
